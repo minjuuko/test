@@ -17,6 +17,7 @@ import com.site.ssk.account.AccountRepository;
 import com.site.ssk.meeting.Meeting;
 import com.site.ssk.meeting.MeetingRepository;
 
+/*
 import com.amazonaws.auth.AWSCredentialsProvider;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
@@ -26,7 +27,7 @@ import com.amazonaws.services.translate.AmazonTranslate;
 import com.amazonaws.services.translate.AmazonTranslateClient;
 import com.amazonaws.services.translate.model.TranslateTextRequest;
 import com.amazonaws.services.translate.model.TranslateTextResult;
- 
+ */
 
 
 @SpringBootTest
@@ -52,6 +53,7 @@ class SskApplicationTests {
 		m1.setAccount(q);
 		this.meetingRepository.save(m1);
 		*/
+		/*
 AWSCredentialsProvider awsCreds = DefaultAWSCredentialsProviderChain.getInstance();
         
         AmazonTranslate translate = AmazonTranslateClient.builder()
@@ -68,4 +70,5 @@ AWSCredentialsProvider awsCreds = DefaultAWSCredentialsProviderChain.getInstance
         
         System.out.println(result.getTranslatedText());
 	}
+	*/
 }
