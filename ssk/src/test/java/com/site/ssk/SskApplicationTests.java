@@ -69,6 +69,7 @@ AWSCredentialsProvider awsCreds = DefaultAWSCredentialsProviderChain.getInstance
         TranslateTextResult result  = translate.translateText(request);
         
         System.out.println(result.getTranslatedText());
-	}
 	*/
+	}
+	
 }
